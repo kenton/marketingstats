@@ -9,4 +9,8 @@ defmodule Marketingstats.Semrush.Domain do
   def search_keywords(domain) do
     @semrush_api.search_keywords(domain)
   end
+
+  def overview(domain) do
+    @semrush_api.overview(domain)
+  end
 end

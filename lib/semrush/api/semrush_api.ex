@@ -15,4 +15,12 @@ defmodule Semrush.Api.SemrushApi do
                                        type: "domain_adwords", 
                                        domain: domain})
   end
+
+  def overview(domain) do
+    _response = HTTPotion.get("http://api.semrush.com", 
+                              query: %{key: "d7a58a26ed468b170ac3c64eb82e442f", 
+                                       database: "us", 
+                                       type: "domain_ranks", 
+                                       domain: domain})
+  end
 end
