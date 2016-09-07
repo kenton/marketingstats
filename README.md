@@ -1,6 +1,11 @@
 # Marketingstats
 
-**TODO: Add description**
+A library for gathering various marketing stats for one or more websites.  
+
+Uses the following APIs:
+  * SEMRush (work in progress)
+  * SpyFu (coming soon)
+  * possibly others
 
 ## Installation
 
